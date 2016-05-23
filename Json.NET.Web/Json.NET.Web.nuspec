@@ -15,7 +15,7 @@
     <tags>json net json.net newtonsoft web client http download downloads get post put delete httpclient system net network static utility helper extender extension clients rest api</tags>
     <dependencies>
       <group targetFramework="portable45-net45+win8+wpa81">
-        <dependency id="Json.NET" version="7.0.1" />
+        <dependency id="Newtonsoft.Json" version="7.0.1" />
         <dependency id="System.Net.Http" version="4.0.1-rc2-24027" />
       </group>
     </dependencies>
