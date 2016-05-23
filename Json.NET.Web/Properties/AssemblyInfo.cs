@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle("Json.NET.Web")]
-[assembly: AssemblyDescription("Json.Net Http Client")]
+[assembly: AssemblyDescription("Json.NET Http Client")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Caelan")]
 [assembly: AssemblyProduct("Json.NET.Web")]
