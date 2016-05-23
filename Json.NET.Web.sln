@@ -3,6 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.NET.Web", "Json.NET.Web\Json.NET.Web.csproj", "{E75FFB7D-2AC0-420A-B855-246AC6296D2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yaml", "Yaml", "{289C76F6-2607-4AE8-AF6C-5FE4EC0DFD11}"
+	ProjectSection(SolutionItems) = preProject
+		appveyor.yml = appveyor.yml
+		.travis.yml = .travis.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.NET.Web.Tests", "Json.NET.Web.Tests\Json.NET.Web.Tests.csproj", "{105B710A-9595-4BD7-A305-D5760099AA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +21,9 @@ Global
 		{E75FFB7D-2AC0-420A-B855-246AC6296D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E75FFB7D-2AC0-420A-B855-246AC6296D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E75FFB7D-2AC0-420A-B855-246AC6296D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105B710A-9595-4BD7-A305-D5760099AA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105B710A-9595-4BD7-A305-D5760099AA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105B710A-9595-4BD7-A305-D5760099AA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105B710A-9595-4BD7-A305-D5760099AA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
