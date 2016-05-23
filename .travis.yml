@@ -5,4 +5,4 @@ install:
   - sudo apt-get install nunit-console
 script:
   - xbuild /p:Configuration=Release Json.NET.Web.sln
-#  - nunit-console ./ClassBuilder.NUnit/bin/Release/ClassBuilder.NUnit.dll
+  - nunit-console ./Json.NET.Web.Nunit/bin/Release/Json.NET.Web.Nunit.dll

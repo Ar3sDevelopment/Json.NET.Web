@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using System;
+using System.Threading.Tasks;
 using Newtonsoft.Json;
 namespace Json.NET.Web.Tests
 {
@@ -7,7 +8,7 @@ namespace Json.NET.Web.Tests
 	public class Test
 	{
 		[Test]
-		public void TestGet()
+		public async Task TestGet()
 		{
 			var ws = new TestWebServer();
 
@@ -15,13 +16,13 @@ namespace Json.NET.Web.Tests
 
 			while (!ws.IsStarted) { }
 
-			JsonWebClient.GetAsync<object>($"{TestWebServer.TestHost}?key1=test&key2=try");
+			Console.WriteLine(JsonConvert.SerializeObject(await JsonWebClient.GetAsync<object>($"{TestWebServer.TestHost}?key1=test&key2=try")));
 
 			ws.Stop();
 		}
 
 		[Test]
-		public void TestPost()
+		public async Task TestPost()
 		{
 			var ws = new TestWebServer();
 
@@ -29,13 +30,13 @@ namespace Json.NET.Web.Tests
 
 			while (!ws.IsStarted) { }
 
-			JsonWebClient.PostAsync<object>(TestWebServer.TestHost, "key1=test&key2=try");
+            Console.WriteLine(JsonConvert.SerializeObject(await JsonWebClient.PostAsync<object>(TestWebServer.TestHost, "key1=test&key2=try")));
 
 			ws.Stop();
 		}
 
 		[Test]
-		public void TestPut()
+		public async Task TestPut()
 		{
 			var ws = new TestWebServer();
 
@@ -43,13 +44,13 @@ namespace Json.NET.Web.Tests
 
 			while (!ws.IsStarted) { }
 
-			JsonWebClient.PutAsync<object>(TestWebServer.TestHost, "key1=test&key2=try");
+            Console.WriteLine(JsonConvert.SerializeObject(await JsonWebClient.PutAsync<object>(TestWebServer.TestHost, "key1=test&key2=try")));
 
 			ws.Stop();
 		}
 
 		[Test]
-		public void TestDelete()
+		public async Task TestDelete()
 		{
 			var ws = new TestWebServer();
 
@@ -57,7 +58,7 @@ namespace Json.NET.Web.Tests
 
 			while (!ws.IsStarted) { }
 
-			JsonWebClient.DeleteAsync<object>($"{TestWebServer.TestHost}?key1=test&key2=try");
+            Console.WriteLine(JsonConvert.SerializeObject(await JsonWebClient.DeleteAsync<object>($"{TestWebServer.TestHost}?key1=test&key2=try")));
 
 			ws.Stop();
 		}

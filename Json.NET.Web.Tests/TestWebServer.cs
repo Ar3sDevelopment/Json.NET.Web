@@ -10,7 +10,7 @@ namespace Json.NET.Web.Tests
 {
 	public class TestWebServer
 	{
-		internal const string TestHost = "http://localhost:10101";
+		internal const string TestHost = "http://localhost:10101/";
 
 		private readonly HttpListener _listener = new HttpListener();
 		private readonly Func<HttpListenerRequest, string> _responderMethod;
