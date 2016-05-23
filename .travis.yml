@@ -1,0 +1,8 @@
+language: csharp
+solution: Json.NET.Web.sln
+install:
+  - nuget restore Json.NET.Web.sln
+  - sudo apt-get install nunit-console
+script:
+  - xbuild /p:Configuration=Release Json.NET.Web.sln
+#  - nunit-console ./ClassBuilder.NUnit/bin/Release/ClassBuilder.NUnit.dll

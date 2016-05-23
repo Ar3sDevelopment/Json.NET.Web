@@ -5,13 +5,13 @@ using System.Runtime.CompilerServices;
 // Change them to the values specific to your project.
 
 [assembly: AssemblyTitle("Json.NET.Web")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Json.Net Http Client")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
-[assembly: AssemblyCopyright("Matteo Bruni")]
-[assembly: AssemblyTrademark("")]
-[assembly: AssemblyCulture("")]
+[assembly: AssemblyCompany("Caelan")]
+[assembly: AssemblyProduct("Json.NET.Web")]
+[assembly: AssemblyCopyright("2016 © Matteo Bruni")]
+[assembly: AssemblyTrademark("Json.NET.Web")]
+[assembly: AssemblyCulture("en-US")]
 
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
