@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$-beta1</version>
+    <title>Json.NET.Web</title>
+    <authors>$author$</authors>
+    <owners>Matteo Bruni</owners>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <summary>$description$</summary>
+    <language>en-US</language>
+    <projectUrl>http://ar3sdevelopment.github.io/Json.NET.Web/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>json net json.net newtonsoft web client http download downloads get post put delete httpclient system net network static utility helper extender extension clients rest api</tags>
+    <dependencies>
+      <group targetFramework="portable45-net45+win8+wpa81">
+        <dependency id="Json.NET" version="7.0.1" />
+        <dependency id="System.Net.Http" version="4.0.1-rc2-24027" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

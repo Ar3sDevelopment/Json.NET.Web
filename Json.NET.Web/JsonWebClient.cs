@@ -1,5 +1,7 @@
 ﻿using System.Threading.Tasks;
 using System.Net.Http;
+using System.Net.Http.Headers;
+
 namespace Newtonsoft.Json
 {
 	public static class JsonWebClient
