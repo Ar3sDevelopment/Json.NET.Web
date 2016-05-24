@@ -22,11 +22,11 @@
         <dependency id="System.Threading.Tasks" version="4.0.0" />
       </group>
     </dependencies>
-    <files>
-      <file src="..\bin\ARM\Release\Json.NET.Web.dll" target="runtimes\win10-arm\lib\uap10.0" />
-      <file src="..\bin\x64\Release\Json.NET.Web.dll" target="runtimes\win10-x64\lib\uap10.0" />
-      <file src="..\bin\x86\Release\Json.NET.Web.dll" target="runtimes\win10-x86\lib\uap10.0" />
-      <file src="..\bin\Release\Json.NET.Web.dll" target="ref\uap10.0" />
-    </files>
   </metadata>
+  <files>
+	<file src="..\bin\ARM\Release\Json.NET.Web.dll" target="runtimes\win10-arm\lib\uap10.0" />
+	<file src="..\bin\x64\Release\Json.NET.Web.dll" target="runtimes\win10-x64\lib\uap10.0" />
+	<file src="..\bin\x86\Release\Json.NET.Web.dll" target="runtimes\win10-x86\lib\uap10.0" />
+	<file src="..\bin\Release\Json.NET.Web.dll" target="ref\uap10.0" />
+  </files>
 </package>
