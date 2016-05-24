@@ -6,8 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.NET.Web", "Json.NET.We
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Yaml", "Yaml", "{289C76F6-2607-4AE8-AF6C-5FE4EC0DFD11}"
 	ProjectSection(SolutionItems) = preProject
-		appveyor.yml = appveyor.yml
 		.travis.yml = .travis.yml
+		appveyor.yml = appveyor.yml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json.NET.Web.Tests", "Json.NET.Web.Tests\Json.NET.Web.Tests.csproj", "{105B710A-9595-4BD7-A305-D5760099AA8B}"
