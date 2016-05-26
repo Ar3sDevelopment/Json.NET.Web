@@ -5,11 +5,11 @@ branches:
 skip_tags: true
 image: Visual Studio 2015
 configuration: Release
-platform:
-- x86
-- x64
-- ARM
-- Any CPU
+#platform:
+#- x86
+#- x64
+#- ARM
+#- Any CPU
 assembly_info:
   patch: true
   file: '**\AssemblyInfo.*'
