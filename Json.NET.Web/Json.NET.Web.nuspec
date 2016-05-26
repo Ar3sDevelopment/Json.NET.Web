@@ -16,12 +16,6 @@
     <dependencies>
       <group targetFramework="portable45-net45+win8+wpa81">
         <dependency id="Newtonsoft.Json" version="8.0.3" />
-        <dependency id="System.Diagnostics.Debug" version="4.0.0" />
-        <dependency id="System.Net.Http" version="4.0.0" />
-        <dependency id="System.Resources.ResourceManager" version="4.0.0" />
-        <dependency id="System.Runtime" version="4.0.0" />
-        <dependency id="System.Threading.Tasks" version="4.0.0" />
-        <dependency id="Xamarin.Forms" version="2.2.0.31" />
       </group>
     </dependencies>
   </metadata>
