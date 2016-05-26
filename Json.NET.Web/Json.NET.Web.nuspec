@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>$id$</id>
-    <version>$version$-beta1</version>
+    <version>$version$</version>
     <title>Json.NET.Web</title>
     <authors>$author$</authors>
     <owners>Matteo Bruni</owners>
@@ -15,18 +15,14 @@
     <tags>json net json.net newtonsoft web client http download downloads get post put delete httpclient system net network static utility helper extender extension clients rest api</tags>
     <dependencies>
       <group targetFramework="dotnet">
-        <dependency id="Newtonsoft.Json" version="7.0.1" />
+        <dependency id="Newtonsoft.Json" version="8.0.3" />
         <dependency id="System.Diagnostics.Debug" version="4.0.0" />
         <dependency id="System.Net.Http" version="4.0.0" />
+        <dependency id="System.Resources.ResourceManager" version="4.0.0" />
         <dependency id="System.Runtime" version="4.0.0" />
         <dependency id="System.Threading.Tasks" version="4.0.0" />
+        <dependency id="Xamarin.Forms" version="2.2.0.31" />
       </group>
     </dependencies>
   </metadata>
-  <files>
-	<file src="..\bin\ARM\Release\Json.NET.Web.dll" target="runtimes\win10-arm\lib\uap10.0" />
-	<file src="..\bin\x64\Release\Json.NET.Web.dll" target="runtimes\win10-x64\lib\uap10.0" />
-	<file src="..\bin\x86\Release\Json.NET.Web.dll" target="runtimes\win10-x86\lib\uap10.0" />
-	<file src="..\bin\Release\Json.NET.Web.dll" target="ref\uap10.0" />
-  </files>
 </package>
