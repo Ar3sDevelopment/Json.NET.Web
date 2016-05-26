@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>$id$</id>
-    <version>$version$-beta1</version>
+    <version>$version$</version>
     <title>Json.NET.Web</title>
     <authors>$author$</authors>
     <owners>Matteo Bruni</owners>
@@ -14,9 +14,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>json net json.net newtonsoft web client http download downloads get post put delete httpclient system net network static utility helper extender extension clients rest api</tags>
     <dependencies>
-      <group targetFramework="portable45-net45+win8+wpa81">
-        <dependency id="Newtonsoft.Json" version="7.0.1" />
-        <dependency id="System.Net.Http" version="4.0.1-rc2-24027" />
+      <group targetFramework="dotnet">
+        <dependency id="Newtonsoft.Json" version="8.0.3" />
+        <dependency id="System.Diagnostics.Debug" version="4.0.0" />
+        <dependency id="System.Net.Http" version="4.0.0" />
+        <dependency id="System.Resources.ResourceManager" version="4.0.0" />
+        <dependency id="System.Runtime" version="4.0.0" />
+        <dependency id="System.Threading.Tasks" version="4.0.0" />
+        <dependency id="Xamarin.Forms" version="2.2.0.31" />
       </group>
     </dependencies>
   </metadata>
