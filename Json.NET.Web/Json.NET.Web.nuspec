@@ -14,7 +14,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>json net json.net newtonsoft web client http download downloads get post put delete httpclient system net network static utility helper extender extension clients rest api</tags>
     <dependencies>
-      <group targetFramework="dotnet">
+      <group targetFramework="portable45-net45+win8+wpa81">
         <dependency id="Newtonsoft.Json" version="8.0.3" />
         <dependency id="System.Diagnostics.Debug" version="4.0.0" />
         <dependency id="System.Net.Http" version="4.0.0" />
